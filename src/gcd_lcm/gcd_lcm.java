@@ -30,6 +30,8 @@ public class gcd_lcm {
     }
 
     public static int lcm(int r, int a, int b){
+        // 최소 공배수
+        // 두 수의 곱을 최대 공약수로 나누는 것 
         return a * b / r;
     }
 
